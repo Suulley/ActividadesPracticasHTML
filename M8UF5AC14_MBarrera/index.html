@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="cat">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Formulari bàsic de registre</h1>
+    <form action="">
+        Nom: <input type="text" name="Nom" maxlength="50"><br>
+        Cognom: <input type="text" name="Cognom" maxlength="50"><br><br>
+        Sexe:<br>
+        <input type="radio" name="sex" value="Home">Home<br>
+        <input type="radio" name="sex" value="Dona">Dona<br><br>
+        Correu: <input type="text" name="Correu"><br><br>
+        Població<br>
+        <select name="Població">
+            <option value="Arbúcies">Arbúcies</option>
+            <option value="Badalona">Badalona</option>
+            <option value="Barcelona">Barcelona</option>
+            <option value="Girona">Girona</option>
+            <option value="Vilassar de Mar">Vilassar de Mar</option>
+        </select><br><br>
+        Descripció<br>
+        <textarea name="Descripció" cols="40" rows="5">Escriu Aqui</textarea><br><br>
+        <input type="checkbox" name="check1" value="check1" checked>Vull rebre informació sobre novetats i ofertes<br>
+        <input type="checkbox" name="check2" value="check2">Declaro haver llegit i acceptar les condicions generals del programa i la normativa sobre protecció de dades indicada al RGPD<br>
+        <input type="submit" name="enviar" value="Enviar">
+    </form>
+</body>
+</html>
