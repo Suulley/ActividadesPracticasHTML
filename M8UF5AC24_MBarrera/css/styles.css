@@ -1,0 +1,31 @@
+ul {
+    list-style: none;
+    width: 110px;
+    text-align: center;
+    color: white;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    background-color: blue;
+}
+
+li {
+    padding: 2px;
+}
+
+a:hover {
+    border: 2px solid red;
+}
+
+li.cap a{
+    color: white;
+    background-color: green;
+}
+.capde a:hover {
+    background-color: grey;
+    color: black;
+    border: 2px solid red;
+}

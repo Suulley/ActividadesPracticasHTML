@@ -1,0 +1,234 @@
+h1 {
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.GRIDTABLE {
+    width: 880px;
+    display: grid;
+    grid-template-columns: 60px 158px 158px 158px 158px 158px;
+    grid-template-rows: 70px 140px 140px 140px 70px 140px 140px;
+    grid-template-areas:
+        "Hora DILLUNS DIMARTS DIMECRES DIJOUS DIVENDRES"
+        "Primera M7_1 M6_1 M6_2 ANG_1 EIE_1"
+        "Segona M7_2 M6_3 M6_4 ANG_2 EIE_2"
+        "Tercera ANG_3 M8_1 TUTORIA M7_3 M7_4"
+        "Quarta PATI PATI PATI PATI PATI"
+        "Quinta M8_2 M8_3 M8_4 M7_5 M7_6"
+        "Sexta M8_5 M8_6 M8_7 M6_5 .";
+}
+img {
+    max-height: 90%;
+    max-width: 90%;
+}
+.Hora {
+    grid-area: Hora;
+    text-align: center;
+    align-self: center;
+}
+.Primera {
+    text-align: center;
+    align-self: center;
+}
+.Segona {
+    text-align: center;
+    align-self: center;
+}
+.Tercera {
+    text-align: center;
+    align-self: center;
+}
+.Quarta {
+    text-align: center;
+    align-self: center;
+}
+.Quinta {
+    text-align: center;
+    align-self: center;
+}
+.Sexta {
+    text-align: center;
+    align-self: center;
+}
+.DILLUNS {
+    grid-area: DILLUNS;
+    text-align: center;
+    align-self: center;
+}
+.DIMARTS {
+    grid-area: DIMARTS;
+    text-align: center;
+    align-self: center;
+}
+.DIMECRES {
+    grid-area: DIMECRES;
+    text-align: center;
+    align-self: center;
+}
+.DIJOUS {
+    grid-area: DIJOUS;
+    text-align: center;
+    align-self: center;
+}
+.DIVENDRES {
+    grid-area: DIVENDRES;
+    text-align: center;
+    align-self: center;
+}
+
+#M7_1 {
+    grid-area: M7_1;
+    padding-left: 10%;
+    align-self: center;
+    justify-self: center;
+}
+#M7_2 {
+    grid-area: M7_2;
+    padding-left: 10%;
+    align-self: center;
+    justify-self: center;
+}
+#M7_3 {
+    grid-area: M7_3;
+    padding-left: 10%;
+    align-self: center;
+    justify-self: center;
+}
+#M7_4 {
+    grid-area: M7_4;
+    padding-left: 10%;
+    align-self: center;
+    justify-self: center;
+}
+#M7_5 {
+    grid-area: M7_5;
+    padding-left: 10%;
+    align-self: center;
+    justify-self: center;
+}
+#M7_6 {
+    grid-area: M7_6;
+    padding-left: 10%;
+    align-self: center;
+    justify-self: center;
+}
+#M6_1 {
+    grid-area: M6_1;
+    padding-left: 10%;
+    align-self: center;
+    justify-self: center;
+}
+#M6_2 {
+    grid-area: M6_2;
+    padding-left: 10%;
+    align-self: center;
+    justify-self: center;
+}
+#M6_3 {
+    grid-area: M6_3;
+    padding-left: 10%;
+    align-self: center;
+    justify-self: center;
+}
+#M6_4 {
+    grid-area: M6_4;
+    padding-left: 10%;
+    align-self: center;
+    justify-self: center;
+}
+#M6_5 {
+    grid-area: M6_5;
+    padding-left: 10%;
+    align-self: center;
+    justify-self: center;
+}
+#M8_1 {
+    grid-area: M8_1;
+    padding-left: 10%;
+    align-self: center;
+    justify-self: center;
+}
+#M8_2 {
+    grid-area: M8_2;
+    padding-left: 10%;
+    align-self: center;
+    justify-self: center;
+}
+#M8_3 {
+    grid-area: M8_3;
+    padding-left: 10%;
+    align-self: center;
+    justify-self: center;
+}
+#M8_4 {
+    grid-area: M8_4;
+    padding-left: 10%;
+    align-self: center;
+    justify-self: center;
+}
+#M8_5 {
+    grid-area: M8_5;
+    padding-left: 10%;
+    align-self: center;
+    justify-self: center;
+}
+#M8_6 {
+    grid-area: M8_6;
+    padding-left: 10%;
+    align-self: center;
+    justify-self: center;
+}
+#M8_7 {
+    grid-area: M8_7;
+    padding-left: 10%;
+    align-self: center;
+    justify-self: center;
+}
+#TUTORIA {
+    grid-area: TUTORIA;
+    padding-left: 10%;
+    align-self: center;
+    justify-self: center;
+}
+#ANG_1 {
+    grid-area: ANG_1;
+    padding-left: 10%;
+    align-self: center;
+    justify-self: center;
+}
+#ANG_2 {
+    grid-area: ANG_2;
+    padding-left: 10%;
+    align-self: center;
+    justify-self: center;
+}
+#ANG_3 {
+    grid-area: ANG_3;
+    padding-left: 10%;
+    align-self: center;
+    justify-self: center;
+}
+#EIE_1 {
+    grid-area: EIE_1;
+    padding-left: 10%;
+    align-self: center;
+    justify-self: center;
+}
+#EIE_2 {
+    grid-area: EIE_2;
+    padding-left: 10%;
+    align-self: center;
+    justify-self: center;
+}
+
+#PATI {
+    grid-area: PATI;
+    text-align: center;
+    align-self: center;
+}
