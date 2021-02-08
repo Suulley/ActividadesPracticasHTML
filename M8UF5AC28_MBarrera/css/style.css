@@ -1,0 +1,90 @@
+body {
+    text-align: center;
+    margin: 1%;
+}
+.box2 {
+    display: inline-block;
+    width: 200px;
+    height: 100px;
+    margin: 1em;
+    border: 2px solid green;
+}
+.llistes {
+    display: flex;
+    align-items: center;
+}
+#Charmander {
+    text-align: left;
+    padding: 1%;
+    border:2px solid rgb(0, 177, 0);
+}
+#Plusle {
+    text-align: left;
+    padding: 1%;
+    border:2px dotted rgb(0, 157, 0);
+}
+#Alakazam {
+    text-align: left;
+    padding: 1%;
+    border:2px dotted rgb(0, 137, 0);
+}
+#Landorus {
+    text-align: left;
+    padding: 1%;
+    border:2px dotted rgb(0, 117, 0);
+}
+#Avalugg {
+    text-align: left;
+    padding: 1%;
+    border:2px dotted rgb(0, 97, 0);
+}
+#Mantyke {
+    text-align: left;
+    padding: 1%;
+    border:2px dotted rgb(79, 12, 141);
+}
+#Sealeo {
+    text-align: left;
+    padding: 1%;
+    border:2px dotted  rgb(79, 12, 141);
+}
+#Exeggeute {
+    text-align: left;
+    padding: 1%;
+    border:2px dotted  rgb(79, 12, 141);
+}
+#Meganium {
+    text-align: left;
+    padding: 1%;
+    border:2px dotted  rgb(79, 12, 141);
+}
+#Spinda {
+    text-align: left;
+    padding: 1%;
+    border:2px dotted  rgb(79, 12, 141);
+}
+#KamovKa32 {
+    text-align: left;
+    padding: 1%;
+    border:2px dotted red;
+}
+#Sokol {
+    text-align: left;
+    padding: 1%;
+    border:2px dotted red;
+}
+#Bell212 {
+    text-align: left;
+    padding: 1%;
+    border:2px dotted red;
+}
+#Apache {
+    text-align: left;
+    padding: 1%;
+    border:2px dotted red;
+}
+#AIRBUSH125 {
+    text-align: left;
+    padding: 1%;
+    border:2px solid red;
+}
