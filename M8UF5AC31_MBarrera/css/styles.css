@@ -1,0 +1,112 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#title {
+    margin-top: 20px;
+    display: block;
+    
+}
+
+#title h1 {
+    text-align: center;
+    font-size: 50px;
+    font-family:'Segoe UI';
+}
+
+
+#nav ul{
+    margin-top: 20px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: #3C3C3C;
+    height: 50px;
+}
+
+#nav ul li {
+    display: inline;
+    align-items: center;
+    color: black;
+    list-style: none;
+    min-width: 100px;
+    padding: 12px;
+    border: 1px solid black;
+}
+
+#nav ul li a {
+    text-align: center;
+    color: black;
+    text-decoration: none;
+    color:white;
+    font-size: 20px;
+    font-family: 'Corbel Light';
+}
+
+#banner {
+    display: flex;
+    /* background-image: url("../img/llac.jpg"); */
+    justify-content: center;
+    height: 850px;
+    width: 100%;
+}
+
+#banner img {
+    width: auto;
+    height: auto;
+}
+
+#subtitle {
+    margin-top: 20px;
+    display: block;
+    
+}
+
+#subtitle h2 {
+    text-align: center;
+    font-size: 35px;
+    color:cornflowerblue;
+    font-family: 'Corbel Light';
+}
+
+#photos {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.style_photos {
+    padding: 50px;
+    text-align: center;
+}
+
+.style_photos img {
+    height: 200px;
+    width: 100%;
+    padding: 10px;
+    /* Source Serif Pro */
+}
+
+.text p {
+    font-family: 'Source Serif Pro';
+    font-size: 20px;
+    font-style: italic;
+}
+
+#container_under_text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#under_text p {
+    width: 600px;
+    text-align: center;
+    line-height : 25px;
+    padding-bottom: 20px;
+}
